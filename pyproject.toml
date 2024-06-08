@@ -1,0 +1,23 @@
+[project]
+name = "iloveshp"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "anderson stolfi", email = "133429641+popogis24@users.noreply.github.com"},
+]
+dependencies = [
+    "pyshp>=2.3.1",
+    "gdal>=3.9.0",
+    "pytest>=8.2.2",
+]
+requires-python = ">=3.12"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true

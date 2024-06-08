@@ -1,19 +1,19 @@
 from abc import ABC, abstractmethod
 
-class Reader(ABC):
+class Converter(ABC):
     def __init__(self, file_path):
         self.file_path = file_path
 
     @abstractmethod
-    def validate(self):
+    def find_in_database(self, table_name):
         """
-        Read the data from the file.
+        Find the file in the database.
         """
         pass
 
     @abstractmethod
-    def open(self):
+    def convert(self):
         """
-        Open the file.
+        Convert the file.
         """
         pass

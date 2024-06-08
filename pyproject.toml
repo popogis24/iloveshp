@@ -9,6 +9,14 @@ dependencies = [
     "pyshp>=2.3.1",
     "gdal>=3.9.0",
     "pytest>=8.2.2",
+    "dotenv>=0.0.5",
+    "psycopg2>=2.9.9",
+    "python-dotenv>=1.0.1",
+    "pytest-mock>=3.14.0",
+    "sqlalchemy>=2.0.30",
+    "geopandas>=0.14.4",
+    "fiona>=1.9.6",
+    "converter>=1.0.0",
 ]
 requires-python = ">=3.12"
 readme = "README.md"
